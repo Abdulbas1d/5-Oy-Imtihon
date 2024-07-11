@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+
+    <!-- General Style -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <header class="header">
+            <div class="logo-name">
+                <h5>Скидка 10% по промокоду “ZAMOK” на все заказы до 10.09</h5>
+                <a href="./index.html">Обратный звонок</a>
+            </div>
+
+            <div id="logo" class="logo">
+                <img src="./images/Logo_picture.svg" alt="There is logo picture">
+
+                <div id="departments" class="departments">
+                    <ul class="data">
+                        <li><a href="./index.html">Главная</a></li>
+                        <li><a href="./pages/catalogue.html">Каталог</a></li>
+                        <li><a href="./pages/trade.html">Оптовая продажа</a></li>
+                        <li><a href="./pages/about.html">O нас</a></li>
+                    </ul>
+                </div>
+
+                <div class="number">
+                    <img src="./images/phone-call.svg" alt="">
+                    <h5>+7 (966) 55 88 499</h5>
+                </div>
+
+                <div class="data1">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    <a href="./pages/shopping.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </header>
+        <hr style="height:2px;border-width:0;color:rgb(196, 205, 213);background-color: rgb(196, 205, 213)">
+
+        <h5 class="menu">Главная / <span>Каталог</span></h5>
+        <div class="menu-2">
+            <h2>Накладные электронные замки</h2>
+            <h4>(854)</h4>
+        </div>
+
+        <div id="main" class="main">
+            <h4>Сбросить фильтры</h4>
+            <h5>Электронные кодовые замки</h5>
+            <img src="./images/error_picture.svg" alt="There is error picture">
+            <select name="" id="select" class="select">
+                <option value="Популярности">Популярности</option>
+                <option value="Не популярен">Не популярен</option>
+                <option value="Средний">Средний</option>
+                <option value="Известный">Известный</option>
+            </select>
+        </div>
+
+
+        <div id="medium" class="medium">
+            <div id="medium-left" class="medium-left">
+                <h2>Фильтр</h2>
+
+                <div class="medium-1">
+                    <div class="in-medium">
+                        <h5>Цена</h5>
+                        <img src="./images/frame.svg" alt="" class="img">
+                    </div>
+                    <div id="input" class="input">
+                        <input type="number">
+                        <input type="number">
+                    </div>
+                    <button id="btn" class="btn">
+                        Searching...
+                    </button>
+                    <select name="" id="">
+                        <option value="Особенности">Особенности</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="Цвет">Цвет</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="Материал">Материал</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="Размеры">Размеры</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="medium-right" class="medium-right">
+                <div id="cards" class="cards">
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/error_picture.svg"
+                                        alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Вариативный замок Golden Soft для отеля</h5>
+                            <div id="price" class="price">
+                                <h2>7 000₽</h2>
+                                <h4>8 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/true.svg" alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Дверной Замок Golden Soft для офиса</h5>
+                            <div id="price" class="price">
+                                <h2>33 000₽</h2>
+                                <h4>39 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/true.svg" alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Дверной Замок Golden Soft для офиса</h5>
+                            <div id="price" class="price">
+                                <h2>9 000₽</h2>
+                                <h4>12 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cards" class="cards">
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/error_picture.svg"
+                                        alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Вариативный замок Golden Soft для отеля</h5>
+                            <div id="price" class="price">
+                                <h2>7 000₽</h2>
+                                <h4>8 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/true.svg" alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Дверной Замок Golden Soft для офиса</h5>
+                            <div id="price" class="price">
+                                <h2>33 000₽</h2>
+                                <h4>39 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/true.svg" alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Дверной Замок Golden Soft для офиса</h5>
+                            <div id="price" class="price">
+                                <h2>9 000₽</h2>
+                                <h4>12 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cards" class="cards">
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/error_picture.svg"
+                                        alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Вариативный замок Golden Soft для отеля</h5>
+                            <div id="price" class="price">
+                                <h2>7 000₽</h2>
+                                <h4>8 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/true.svg" alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Дверной Замок Golden Soft для офиса</h5>
+                            <div id="price" class="price">
+                                <h2>33 000₽</h2>
+                                <h4>39 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/true.svg" alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Дверной Замок Golden Soft для офиса</h5>
+                            <div id="price" class="price">
+                                <h2>9 000₽</h2>
+                                <h4>12 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cards" class="cards">
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/error_picture.svg"
+                                        alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Вариативный замок Golden Soft для отеля</h5>
+                            <div id="price" class="price">
+                                <h2>7 000₽</h2>
+                                <h4>8 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/true.svg" alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Дверной Замок Golden Soft для офиса</h5>
+                            <div id="price" class="price">
+                                <h2>33 000₽</h2>
+                                <h4>39 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div id="card-part1" class="card-part1">
+                            <div id="for-text" class="for-text">
+                                <div id="for-img" class="for-img">
+                                    <img id="error-picture" class="error-picture" src="./images/true.svg" alt="">
+                                    <h4>Нет в наличии</h4>
+                                </div>
+                                <h3 id="sale">SALE</h3>
+                            </div>
+                            <div id="for-data" class="for-data">
+                                <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                                <h4>Подарок</h4>
+                            </div>
+                            <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                        </div>
+                        <div id="card-part2" class="card-part2">
+                            <div id="for-image" class="for-image">
+                                <img src="./images/reyting-picture.svg" alt="">
+                                <h4>(12) отзывов</h4>
+                            </div>
+                            <h5>Дверной Замок Golden Soft для офиса</h5>
+                            <div id="price" class="price">
+                                <h2>9 000₽</h2>
+                                <h4>12 000₽</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="numbers">
+                    <img src="./images/icon.svg" alt="">
+                    <h3 class="first-number">1</h3>
+                    <h3>2</h3>
+                    <h3>3</h3>
+                    <h3>4</h3>
+                    <h3>5</h3>
+                    <h3>6</h3>
+                    <h3>7</h3>
+                    <h3>...</h3>
+                    <h3>15</h3>
+                    <img src="./images/icon-2.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="title-menu">
+            <h1 class="title">Вы недавно просмотрели</h1>
+            <div class="icons">
+                <img src="./images/icon.svg" alt="">
+                <img src="./images/icon-2.svg" alt="">
+            </div>
+        </div>
+
+        <div class="middle-part">
+            <div id="cards" class="cards">
+                <div id="card" class="card">
+                    <div id="card-part1" class="card-part1">
+                        <div id="for-text" class="for-text">
+                            <div id="for-img" class="for-img">
+                                <img id="true-picture" class="true-picture" src="./images/true.svg" alt="">
+                                <h4>Нет в наличии</h4>
+                            </div>
+                            <h3 id="sale">SALE</h3>
+                        </div>
+                        <div id="for-data" class="for-data">
+                            <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                            <h4>Подарок</h4>
+                        </div>
+                        <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                    </div>
+                    <div id="card-part2" class="card-part2">
+                        <h5>Дверной Замок Golden Soft для отеля</h5>
+                        <div id="price" class="price">
+                            <h2>33 000₽</h2>
+                            <h4>37 000₽</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="card" class="card">
+                    <div id="card-part1" class="card-part1">
+                        <div id="for-text" class="for-text">
+                            <div id="for-img" class="for-img">
+                                <img id="error-picture" class="error-picture" src="./images/true.svg" alt="">
+                                <h4>Нет в наличии</h4>
+                            </div>
+                            <h3 id="sale">SALE</h3>
+                        </div>
+                        <div id="for-data" class="for-data">
+                            <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                            <h4>Подарок</h4>
+                        </div>
+                        <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                    </div>
+                    <div id="card-part2" class="card-part2">
+                        <h5>Вариативный замок Golden Soft для отеля</h5>
+                        <div id="price" class="price">
+                            <h2>7 000₽</h2>
+                            <h4>8 000₽</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="card" class="card">
+                    <div id="card-part1" class="card-part1">
+                        <div id="for-text" class="for-text">
+                            <div id="for-img" class="for-img">
+                                <img id="true-picture" class="true-picture" src="./images/true.svg" alt="">
+                                <h4>Нет в наличии</h4>
+                            </div>
+                            <h3 id="sale">SALE</h3>
+                        </div>
+                        <div id="for-data" class="for-data">
+                            <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                            <h4>Подарок</h4>
+                        </div>
+                        <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                    </div>
+                    <div id="card-part2" class="card-part2">
+                        <h5>Дверной Замок Golden Soft для офиса</h5>
+                        <div id="price" class="price">
+                            <h2>33 000₽</h2>
+                            <h4>30 000₽</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="card" class="card">
+                    <div id="card-part1" class="card-part1">
+                        <div id="for-text" class="for-text">
+                            <div id="for-img" class="for-img">
+                                <img id="true-picture" class="true-picture" src="./images/true.svg" alt="">
+                                <h4>Нет в наличии</h4>
+                            </div>
+                            <h3 id="sale">SALE</h3>
+                        </div>
+                        <div id="for-data" class="for-data">
+                            <img id="gifts-picture" class="gifts-picture" src="./images/gift-picture.svg" alt="">
+                            <h4>Подарок</h4>
+                        </div>
+                        <img id="door-handle" class="door-handle" src="https://picsum.photos/id/76/200/300" alt="">
+                    </div>
+                    <div id="card-part2" class="card-part2">
+                        <h5>Дверной Замок Golden Soft для офиса</h5>
+                        <div id="price" class="price">
+                            <h2>9 000₽</h2>
+                            <h4>12 000₽</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle-2-part">
+            <div class="middle-top">
+                <div class="middle-left">
+                    <h2>Eget quis quam metus, scelerisque.</h2>
+                    <p>Odio felis sit leo, massa, mauris, at pulvinar ultrices. Eu porttitor molestie massa porttitor.
+                        Quisque at turpis ut proin eu et magna etiam rhoncus.</p>
+                    <div class="chexbox-1">
+                        <input type="checkbox">
+                        <h5>Межкомнатую дверь</h5>
+                        <input type="checkbox">
+                        <h5>Межкомнатую дверь</h5>
+                    </div>
+                    <div class="chexbox-2">
+                        <input type="checkbox">
+                        <h5>Деревянную дверь</h5>
+                        <input type="checkbox">
+                        <h5>Деревянную дверь</h5>
+                    </div>
+                    <p>Ac risus neque pulvinar tincidunt est. Tristique imperdiet viverra interdum in leo. Nullam
+                        ullamcorper id enim fermentum integer praesent bibendum. In ullamcorper purus scelerisque
+                        malesuada et egestas. Ac dictumst mauris sed facilisis.</p>
+                </div>
+                <div class="middle-right">
+                    <img src="./images/password-door.png" alt="">
+                </div>
+            </div>
+            <div class="middle-bottom">
+                <div class="middle-left-2">
+                    <img src="./images/pa.png" alt="">
+                </div>
+                <div class="middle-right-2">
+                    <h2>Eget quis quam metus, scelerisque.</h2>
+                    <p>Odio felis sit leo, massa, mauris, at pulvinar ultrices. Eu porttitor molestie massa porttitor.
+                        Quisque at turpis ut proin eu et magna etiam rhoncus.</p>
+                    <p>Ac risus neque pulvinar tincidunt est. Tristique imperdiet viverra interdum in leo. Nullam
+                        ullamcorper id enim fermentum integer praesent bibendum. In ullamcorper purus scelerisque
+                        malesuada et egestas. Ac dictumst mauris sed facilisis.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-one">
+            <h1>Мы Вам перезвоним</h1>
+            <p>Если у вас возникли какие-то вопросы или проблемы, заполните форму и мы Вам перезвоним.</p>
+            <form action="" class="input-part">
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="Ваш Email">
+                <button>Отправить</button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <div class="footer_container">
+                <div class="logo-data">
+                    <img src="./images/logo.svg" alt="">
+                    <div class="icons">
+                        <i class="fa-brands fa-vk"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                </div>
+                <div class="footer-parts">
+                    <div class="part-1">
+                        <h3>Навигация</h3>
+                        <h5>Главная</h5>
+                        <h5>Каталог</h5>
+                        <h5>Оптовая продажа</h5>
+                        <h5>О нас</h5>
+                    </div>
+                    <div class="part-2">
+                        <h3>Наши контакты</h3>
+                        <h5>Телефоны</h5>
+                        <h5>+7 (988) 565 00 38</h5>
+                        <h5>+375 33 662 82 56</h5>
+                        <h5>Email</h5>
+                        <h5>vladpertcev@mail.ru</h5>
+                        <h5>korobko416@gmail.com</h5>
+                    </div>
+                    <div class="part-3">
+                        <h3>Наш адрес</h3>
+                        <h5>Россия, Ростов-на-Дону ул. Богачева, 16</h5>
+                    </div>
+                    <div class="part-4">
+                        <h3>Информация</h3>
+                        <h5>Доставка и оплата</h5>
+                        <h5>Гарантии</h5>
+                        <h5>Возврат товара</h5>
+                    </div>
+                </div>
+            </div>
+            <hr style="width: 1240px; margin: 0 auto; color: rgb(32, 54, 70); background-color: rgb(32, 54, 70); margin-bottom: 30px;">
+            <h5 class="company">© 2021 Golden Soft All rights reserved.</h5>
+        </div>
+    </div>
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
