@@ -97,7 +97,7 @@ body {
     margin-top: 28px;
 }
 
-.data1 i{
+.data1 i {
     width: 32px;
     height: 32px;
     color: rgb(69, 79, 91);
@@ -126,7 +126,7 @@ body {
     margin-left: 150px;
 }
 
-.menu-2 h2{
+.menu-2 h2 {
     color: rgb(0, 0, 0);
     font-weight: 600;
 }
@@ -180,7 +180,7 @@ body {
 .medium {
     display: flex;
     gap: 45px;
-    margin-top: 60px;   
+    margin-top: 60px;
 }
 
 .medium-left {
@@ -199,7 +199,7 @@ body {
     height: 32px;
     font-weight: 600;
     font-size: 22px;
-    color:rgba(22, 28, 36, 1);
+    color: rgba(22, 28, 36, 1);
     margin-bottom: 40px;
 }
 
@@ -276,20 +276,19 @@ body {
 }
 
 .medium-right {
-    width: 924px;
+    width: 1000px;
     height: 1932px;
-}
-
-.cards {
     display: flex;
-    gap: 25px;
-    margin-bottom: 35px;
-    cursor: pointer;    
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 .card {
     width: 288px;
     height: 453px;
+    margin-left: 25px;
+    margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -425,9 +424,10 @@ body {
 .numbers {
     display: flex;
     gap: 18px;
-    margin-left: 120px;
+    margin-left: 620px;
     text-align: center;
-    
+    margin-top: 50px;
+
     h3 {
         width: 40px;
         height: 40px;
@@ -437,7 +437,7 @@ body {
     }
 
     .first-number {
-        background-color: rgb(69, 149, 228);
+        background-color: rgb(66, 149, 228);
         color: #fff;
         margin-top: 5px;
         text-align: center;
@@ -466,6 +466,7 @@ body {
 .middle-part {
     margin-left: 99px;
     margin-bottom: 100px;
+    display: flex;
 }
 
 .middle-2-part {
@@ -654,7 +655,7 @@ body {
         color: #fff;
         margin-top: 180px;
         margin-left: 7px;
-        
+
         i {
             margin-left: 10px;
         }
